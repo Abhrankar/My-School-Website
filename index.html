@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <title>My School Website</title>
 </head>
 
 <body>
@@ -21,168 +19,148 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://abhrankar.github.io/My-Profile/index.html" target="_blank">Abhrankar Bera</a>
+            <a class="navbar-brand" href="https://www.edustoke.com/assets/uploads-new/ryan-global-school-1495100242-2.png" target="_blank">Ryan International School</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="#travel">Travel</a></li>
-                <li><a href="#movies">Movies</a></li>
-                <li><a href="#environment">Environment</a></li>
-                <li><a href="#books">Books</a></li>
-                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="page-header" id="travel">
-            <h2 class="text-capitalize">
-                places must visit
-            </h2>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries about school@gmail.com ***
+        </marquee>
 
-        </div>
-        <center>
-            <div class="travel_main">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Qutb_Minar_2011.jpg/200px-Qutb_Minar_2011.jpg">
-                <h4 class="text-capitalize">
-                    <kbd>qutub minar</kbd>
-                </h4>
-                <hr>
-                <h5 class="text-capitalize text-left text-success">
-                    I have visited in Oct 2017
-                </h5>
-                <p class="text-left text-muted">
-                    The Qutub Minar is a minaret and "victory tower" that forms part of the Qutub complex. It is a UNESCO World Heritage Site in the Mehrauli area of New Delhi, India.There people were taking pictures and we also took pictures.
-
-                </p>
-            </div>
-
-        </center>
-        <br>
-        <br>
-        <center>
-            <div class="travel_main">
-                <img src="https://cdn.britannica.com/38/189838-050-83C7395E/India-War-Memorial-arch-New-Delhi-Sir.jpg">
-                <h4 class="text-capitalize">
-                    <kbd>india gate</kbd>
-                </h4>
-                <hr>
-                <h5 class="text-capitalize text-left text-success">
-                    I have visited in Oct 2017
-                </h5>
-                <p class="text-left text-muted">
-                    The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi. It stands as a memorial to 70,000 soldiers of the British Indian Army who died in between 1914 and 1921 in the First World War. There were some shops beside India Gate and I bought a toy.
-
-                </p>
-            </div>
-
-        </center>
-        <br>
-        <div class="page-header" id="movies">
-            <h2>Review on the Movies</h2>
-        </div>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#lion_king">
-            <span class="glyphicon glyphicon-film"></span>Lion King<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="lion_king" class="collapse">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Disney_The_Lion_King_2019.jpg">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-success text-left text-capitalize">one of disney's best movies till now!</h5>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-            <p>Lions, hyenas and the circle of life. Oh my god! The Lion King rules the Disney world with a story that's fun and instructive.</p>
-        </div>
-        <br>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#spiderman">
-            <span class="glyphicon glyphicon-film"></span>Spiderman<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="spiderman" class="collapse">s
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-success text-left text-capitalize">a must watch if you are a spiderman fan</h5>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-            <p>Spidey jumps from comic books and TV to the big screen when a teenager develops superpowers after being bitten by a genetically engineered spider.</p>
-        </div>
-        <br>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#spiderman">
-            <span class="glyphicon glyphicon-film"></span>Phir Hera Pheri<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="phir_hera_pheri" class="collapse">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Still-phir-hera-phir.jpg">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-success text-left text-capitalize">very comedy movie. you will laugh until your stomach aches.🤣</h5>
-                <span class="glyphicon glyphicon-star"></span>>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-            <p>This is the best comedy movie of all time. This is that kind of movie which you can watch 10 times without getting bored. You can't miss to watch this movie.</p>
-        </div>
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
-            <h2>Books</h2>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3>Bill Gates</h3>
-            <h4><mark class="header_entrepreneur"><i><sup><i class="fa fa-quote-left"></i></sup>Reading is still the main way that I both learn new things and test my understanding.<sup><i class="fa fa-quote-right"></i></sup></i></mark></h4>
-        </div>
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2>List of Books</h2>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#charlie_and_the_chocolate_factory">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51upMbxwYPL.jpg">
-            <hr>
-            <p class="text-primary">Charlie and the Chocolate Factory</p>
-        </div>
-        <div class="modal fade" id="charlie_and_the_chocolate_factory">
-            <div class="modal-dialog">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Charlie and the Chocolate Factory</h4>
-                </div>
-                <div class="modal-body">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/51upMbxwYPL.jpg" class="img_modal">
-                    <p class="p_modal">Rarely, if ever, has a fictional tale been dressed up in such an entertaining story.<br>
-                        <a href="https://www.flipkart.com/charlie-chocolate-factory/p/itmfbu2awkng4m6r" target="_blank"><b>BEST BUY LINK</b></a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#charlie_and_the_chocolate_factory">
-            <img src="">
-            <hr>
-            <p class="text-primary">Charlie and the Great Glass Elevator</p>
-        </div>
-        <div class="modal fade" id="charlie_and_the_chocolate_factory">
-            <div class="modal-dialog">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Charlie and the Great Glass</h4>
-                </div>
-                <div class="modal-body">
-                    <img src="" class="img_modal">
-                    <p class="p_modal"><br>
-                        <a href="" target="_blank"><b>BEST BUY LINK</b></a>
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
+    <iframe width="1520" height="553" src="https://www.youtube.com/embed/j_31Vo1ZXxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalise">Campus Life</h2>
+        </div>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="image-responsive" src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/22205/2020/3/16/Ryan%20International%20School-Classroom%20View.jpg">
+                <h4 class="text_capitalise"><kbd>School Classroom</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalise">Was established in 1999</h5>
+                <p class="text-muted text-left">I had fun with my classmates in the classroom. We used to study, play and help each other.</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="image-responsive" src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/22205/2020/3/16/Ryan%20International%20School-Campus-View%20With%20Playground.jpg">
+                <h4 class="text_capitalise"><kbd>School Playground</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalise">Was established in 1999</h5>
+                <p class="text-muted text-left">We had fun in the playground. We played football, cricket and a bunch of other games.</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="image-responsive" src="https://i.ytimg.com/vi/gxMU13Qttk0/hqdefault.jpg">
+                <h4 class="text_capitalise"><kbd>School Auditorium</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalise">Was established in 1999</h5>
+                <p class="text-muted text-left">Here famous people gave thoughts about science and food. We used to have fun in the auditorium.</p>
+            </div>
 
+            <div class="page-header" id="achievements">
+                <h2 class="text-capitalise">school achievements</h2>
+            </div>
+            <div class="bg-primary achievements_head" data-toggle="collapse" data-target="#school_achievement1">
+                Guiness World Record for Charity Donation<i class="fa-fa-sort-desc"></i>
+            </div>
+            <div id="school_achievement1" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                    <img src="https://www.ryanglobalschools.com/admin/authenticate/images/award/guinnessworldrecord.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievements_text">
+                    <h5 class="text-success text-left text-capitalise">Made a guiness world record for charity donation</h5>
+                    <p>A guiness world record by our school is nice. When I heard about this, I felt very happy.</p>
+                </div>
+            </div>
+
+            <div class="bg-primary achievements_head" data-toggle="collapse" data-target="#school_achievement2">
+                Zonal Athletic Championship<i class="fa-fa-sort-desc"></i>
+            </div>
+            <div id="school_achievement2" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                    <img src="https://www.ryanglobalschools.com/site/admin/authenticate/images/Kharghar/newes/interzonalathleticchampionship.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievements_text">
+                    <h5 class="text-success text-left text-capitalise">Finished second in Zonal Athletic Championship</h5>
+                    <p>I felt very happy to participate in the Zonal Athletic Championship.</p>
+                </div>
+
+            </div>
+            <div class="bg-primary achievements_head" data-toggle="collapse" data-target="#school_achievement3">
+                Samson Daniel Award <i class="fa-fa-sort-desc"></i>
+            </div>
+            <div id="school_achievement3" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                    <img src="https://www.ryangroup.org/public/images/front_end/Awards/samsondanielaward_1607321468.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievements_text">
+                    <h5 class="text-success text-left text-capitalise">Winning Samson Daniel Award</h5>
+                    <p> Feeling once again happy for winning Samson Daniel Award.</p>
+                </div>
+            </div>
+            <div class="page-header" id="campus_life">
+                <h2 class="text-capitalise">What's New</h2>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 whatsnew_li">
+                    <h4>Covid-19 Pandemic</h4>
+                    <img src="https://www.preventionweb.net/files/61909_banner2.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        The COVID-19 crisis is the latest global challenge and we need to work together to slow the spread.
+                        As a Network of Schools spread across India, we take National and Global Health very seriously.
+                        As per the Government Guidelines, all Ryan International Schools in India have been closed until further notice.
+                        All our Schools are also taking steps to protect the health and wellbeing of our community in line with World Health Organization (WHO) recommendations.
+                        Thank you for your patience in such difficult circumstances.
+                    </p>
+                </li>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 whatsnew_li">
+                    <h4>E-Learning</h4>
+                    <img src="https://dubeat.com/wp-content/uploads/2020/09/Good-Bad-and-Ugly-of-Online-Classes.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        Virtual School during Covid 19 :
+                        With the outbreak of the pandemic of Covid-19 the world was faced with a situation where only those who adapted survived.
+                        Ryan Education Network was quick at adapting to the situation. In the short transition period from pre-lockdown to lockdown Ryan Education Network collaborated with Toppr OS on the 2nd of April, 2020 - the scheduled day for the start of the new academic session.
+
+                    </p>
+                </li>
+            </ul>
+
+
+            <div class="page_header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                <h2 class="text_capitalise">Contact Us</h2>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5591633430877!2d73.06845251472905!3d19.039137587109064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c213f2964675%3A0xb836cf6e3a42e2ef!2sRyan%20International%20School%20Kharghar%2C%20Block%20G%2C%20Sector%2011%2C%20Kharghar%2C%20Navi%20Mumbai%2C%20Maharashtra%20410210!5e0!3m2!1sen!2sin!4v1625910701335!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+            <div id="details">
+                <img src="https://lh3.googleusercontent.com/proxy/ddYxn2MDn8UKf-TmYRFCKm2sdt8PyVTExZX7MRwXe1iTK6UHUkUzSaYVQcyhUmIIB1uWTHnL5--HmuYYHz9iXJePNX0huJugAi_akg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principal Name: </h3>
+                <h4>Mrs. Alice Vaz</h4>
+                <div class="contact_1">
+                    <a href="mailto:school@gmail.com?Subject:Hi!">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;02227740672</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
