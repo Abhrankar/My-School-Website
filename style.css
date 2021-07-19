@@ -23,3 +23,12 @@ img {
 .movie_text span {
     color: orange;
 }
+
+iframe {
+    width: 100%
+}
+
+.img_modal {
+    height: 200px;
+    width: 200px;
+}
